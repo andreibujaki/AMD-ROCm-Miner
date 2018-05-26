@@ -1,0 +1,71 @@
+#!/bin/bash
+#
+# rc.local
+#
+# This script is executed at the end of each multiuser runlevel.
+# Make sure that the script will "exit 0" on success or any other
+# value on error.
+#
+# In order to enable or disable this script just change the execution
+# bits.
+#
+# By default this script does nothing.
+rmmod cdc_ether
+rmmod usbnet
+rmmod shpchp
+rmmod intel_cstate
+modprobe amdgpu
+modprobe tcp_highspeed 
+echo 3 > /proc/sys/net/ipv4/tcp_fastopen
+find /var/log | grep \\.gz | xargs rm ; find /var/log | grep "1" | xargs rm
+mount -o remount,async /dev/sda1
+mount -o remount,async /dev/sda3
+echo 0 > /proc/sys/kernel/watchdog
+echo 0 > /proc/sys/kernel/watchdog
+/etc/init.d/atd stop
+/etc/init.d/apport stop
+/etc/init.d/apparmor stop
+/etc/init.d/cryptdisks stop
+/etc/init.d/irqbalance stop
+/etc/init.d/acpid stop
+/etc/init.d/apport stop
+/etc/init.d/atd stop
+/etc/init.d/cron stop
+/etc/init.d/cryptdisks-early stop
+/etc/init.d/mdadm stop
+/etc/init.d/open-iscsi stop
+killall irqbalance
+/etc/init.d/procps stop
+/etc/init.d/rsyslog stop
+/etc/init.d/ufw stop
+/etc/init.d/lxcfs stop
+/etc/init.d/lxd stop
+/etc/init.d/lxcfs stop
+/etc/init.d/lvm2 stop
+/etc/init.d/iscsid stop
+/etc/init.d/uuidd stop
+/etc/init.d/thermald stop
+/etc/init.d/kmod stop
+/etc/init.d/lvm2-lvmetad stop
+mount -o remount,rw,async /dev/sdb1
+mount -o remount,rw,async /dev/sdb3
+for i in {1..399}
+do
+ renice -15 $i
+ chrt -p 99 $i
+done
+echo manual > /sys/class/drm/card0/device/power_dpm_force_performance_level
+echo manual > /sys/class/drm/card1/device/power_dpm_force_performance_level
+echo manual > /sys/class/drm/card2/device/power_dpm_force_performance_level
+echo manual > /sys/class/drm/card3/device/power_dpm_force_performance_level
+echo manual > /sys/class/drm/card4/device/power_dpm_force_performance_level
+echo manual > /sys/class/drm/card5/device/power_dpm_force_performance_level
+echo 4 > /sys/class/drm/card0/pp_dpm_sclk
+echo 4 > /sys/class/drm/card1/pp_dpm_sclk
+echo 7 > /sys/class/drm/card2/pp_dpm_sclk
+echo 7 > /sys/class/drm/card3/pp_dpm_sclk
+echo 4 > /sys/class/drm/card4/pp_dpm_sclk
+echo 4 > /sys/class/drm/card5/pp_dpm_sclk
+rtkitctl  --start
+nohup /root/start.sh &
+exit 0
