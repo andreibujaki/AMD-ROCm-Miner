@@ -164,3 +164,35 @@ sudo nano /sys/class/drm/card1/device/power_dpm_force_performance_level
 sudo nano /sys/class/drm/card3/device/power_dpm_force_performance_level 
 sudo nano /sys/class/drm/card4/device/power_dpm_force_performance_level 
 sudo reboot
+/opt/rocm/bin/rocm-smi -s
+nano /etc/rc.local
+ls /root
+cp /etc/rc.local /root
+ls /root
+cd root
+cd /root
+git add -A
+git status
+git commit -m "optimized temps and power via rc.local and rocm-smi"
+git push
+exit
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 4 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+nano /etc/rc.local
+nano /start-oc.sh
+nano /root/start-oc.sh
+nano /sys/devices/pci0000:00/0000:00:01.1/0000:02:00.0/pp_mclk_od
+nano /etc/rc.local
+exit
+sudo nano /etc/rc.local
+/opt/rocm/bin/rocm-smi
+exit
+ssh root@192.168.1.14 -p 2201
+ssh root@192.168.1.14 -p 2201
+ssh guru@192.168.1.14 -p 2201

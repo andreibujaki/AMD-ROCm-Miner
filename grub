@@ -1,0 +1,15 @@
+# If you change this file, run 'update-grub' afterwards to update
+# /boot/grub/grub.cfg.
+# For full documentation of the options in this file, see:
+#   info -f grub -n 'Simple configuration'
+
+GRUB_DEFAULT=0
+#GRUB_HIDDEN_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_TIMEOUT=1
+GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+GRUB_CMDLINE_LINUX_DEFAULT="init=/lib/sysvinit/init apparmor=0 security=0 selinux=0 \
+amdgpu.vm_fragment_size=9 nmi_watchdog=0 pti=off 3 spectre_v2=off nopti nospectre_v2 \
+retp=0 ibrs=0 ibpb=0 amdgpu.hw_i2c=1 isolcpus=1 nohz_full=1 processor.max_cstate=1 \
+radeon.clk_support=0 amdgpu.clk_support=1 intel_pstate=disable noexec=off noexec32=off \
+clocksource=hpet audit=0 thermal.off=1 radeon.modeset=0 pcie_aspm=off"
