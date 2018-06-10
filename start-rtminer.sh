@@ -20,4 +20,5 @@ chrt -a -p 99  `ps -ef | grep rcu | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep amd | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep eth | egrep -v grep | awk '{print $2}' `
 chrt -a -p 99 `ps -ef | grep python | egrep -v grep | awk '{print $2}'`
+/root/gpuresetcheck.sh &
 while :; do  cp -r /root/fahtmpfs/* /root/fah/; sleep 3580; done&

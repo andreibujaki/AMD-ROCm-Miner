@@ -272,3 +272,53 @@ nano /root/start-rtlinux.sh
 cat /proc/interrupts 
 /opt/rocm/bin/rocm-smi
 reboot
+/opt/rocm/bin/rocm-smi
+git add -A
+git commit -m "swapped MSI mobo with Asus mobo. Tested with Sapphire + Red Devil RX580"
+git config --global user.email "earlvanze@gmail.com"
+git config --global user.name "Earl Co"
+git commit -m "swapped MSI mobo with Asus mobo. Tested with Sapphire + Red Devil RX580"
+git push
+git checkout -b rig4
+git status
+cat mine.sh 
+git add -A
+git commit -m "swapped MSI mobo with Asus mobo. Tested with Sapphire + Red Devil RX580"
+git push
+git push --set-upstream origin rig4
+kfd
+dmesg |grep kfd
+ls
+dpkg -i linux-headers-4.16.3+_18.04.23.AMDGPU.UBUNTU_amd64.deb 
+ls /
+ls /usr
+ls /usr/src
+dpkg -i linux-headers-4.16.3+_18.04.23.AMDGPU.UBUNTU_amd64.deb --kernelsourcedir /usr/src/linux-headers-4.16.3+
+dpkg -i linux-image-4.16.3+_18.04.23.AMDGPU.UBUNTU_amd64.deb
+apt autoremove os-prober
+reboot
+dmesg |grep kfd
+nano /root/start-oc.sh
+nano /root/start-rtlinux.sh 
+nano /root/start-rtminer.sh 
+ls
+nano start-oc-old.sh 
+reboot
+cat /nohup.out 
+nano /root/mine.sh
+cat /nohup.out 
+cat /root/start-rtlinux.sh 
+cat /root/start-oc.sh
+#find /sys | grep power_dpm_state
+find /sys | grep power_dpm_force_performance_level
+find /sys | grep power_dpm_state
+nano /etc/ssh/sshd_config 
+sudo service ssh restart
+cd /root/.ssh
+ls
+exit
+grep hosts.deny
+nano /etc/hosts.deny
+nano /etc/hosts.allow
+ls -la /root/.ssh
+exit
