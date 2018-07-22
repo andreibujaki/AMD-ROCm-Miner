@@ -1,75 +1,3 @@
-cat /nohup.out 
-cat /proc/interrupts 
-/opt/rocm/bin/rocm-
-/opt/rocm/bin/rocm-smi 
-cat /nohup.out
-cat /root/nohup.out 
-cat /nohup.out
-git rm .vim
-git rm .vim -r
-git rm .nano -r
-git rm .gnupg/ -r
-git rm .cache -r
-git rm .bashrc
-git rm .profile
-git rm .rnd
-git rm .selected_editor 
-git rm .viminfo 
-git rm .wget-hsts 
-git rm dmesg.txt
-git add -A
-git status
-git rm .bash_history 
-git rm .bash_history -f
-git add -A
-git status
-git commit -m "deleted settings files not necessary to push to git"
-git push
-git rm sshtunnel 
-git status
-ls -la
-git rm --cached gitconfig
-git rm --cached .gitconfig
-git rm --cached .git
-git add -A
-git status
-git commit -m "deleted hidden files from git"
-git push
-ls ethminer
-ls radeon-profile/
-ls
-nano .gitignore
-git add -A
-git status
-git reset HEAD .muttrc
-git reset HEAD .ssh -r
-git reset HEAD .ssh
-git reset HEAD .ssh/authorized_keys
-git reset HEAD .ssh/sorty.pem
-git status
-git rm -r --cached .
-git add .
-git status
-nano .gitignore 
-git rm -r --cached .
-git add .
-git status
-nano .gitignore 
-git add .gitignore 
-git rm -r --cached .
-git add .
-git status
-ls radeon-profile/
-ls sgminer/
-ls ethminer/
-ls r8168/
-ls amdcovc/
-ls PolarisBiosEditor/
-git add PolarisBiosEditor/
-git status
-git commit -m "removed ignored files"
-git push
-nano commands.txt
 git add -A
 git status
 git commit -m "added useful commands"
@@ -196,3 +124,377 @@ exit
 ssh root@192.168.1.14 -p 2201
 ssh root@192.168.1.14 -p 2201
 ssh guru@192.168.1.14 -p 2201
+/opt/rocm/bin/rocm-smi
+exit
+/opt/rocm/bin/rocm-smi
+reboot
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi -d 3 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setsclk 5
+/opt/rocm/bin/rocm-smi
+exit
+cat /root/mine.sh
+/opt/rocm/bin/rocm-smi
+exit
+cat /etc/default/grub
+cat /etc/rc.local
+rocm-smi
+/opt/rocm/bin/rocm-smi
+nano /root/start-oc.sh
+/opt/rocm/bin/rocm-smi -s
+nano /root/start-oc.sh
+/opt/rocm/bin/rocm-smi -s
+nano /root/start-oc.sh
+cd /root
+git checkout rig1
+git checkout -b rig1
+nano start-oc.sh
+git checkout rig3
+git pull
+git checkout rig1
+nano start-oc.sh
+nano start-oc.sh
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+nano start-oc.sh
+reboot
+cd
+cd /rootr/Claymore/
+/root/mine.sh
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out
+cat /root/nohup.out
+cat /nohup.out 
+rm /nohup.out 
+cat /root/nohup.out
+cat /root/nohup.out
+/opt/rocm/bin/rocm-smi
+nano /root/mine.sh 
+nano /root/mine.sh 
+/opt/rocm/bin/rocm-smi
+/root/mine.sh
+cat /root/nohup.out
+cat /root/nohup.out
+cat /root/nohup.out
+cat /root/nohup.out
+ssh guru@192.168.1.16 -p 2202
+cd
+git checkout rig3
+ls
+nano start-oc.sh
+nano mine.sh 
+cd Claymore/
+/root/mine.sh 
+cat /root/nohup.out
+cat /root/nohup.out
+cat /root/nohup.out
+cat /root/nohup.out
+cat nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+rm /nohup.out 
+/root/mine.sh 
+ls
+cat nohup.out 
+cat nohup.out 
+cat nohup.out
+cat nohup.out 
+cat nohup.out 
+cat nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+nano start-oc
+cd
+nano start-oc
+nano start-oc.sh 
+reboot
+cd
+nano start-rtminer.sh 
+nano start-rt
+nano start-oc.sh 
+#find /sys | grep power_dpm_state                                               
+#find /sys | grep power_dpm_force_performance_level
+find /sys | grep power_dpm_state                                               
+nano start-oc.sh 
+find /sys | grep power_dpm_state                                               
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+nano start-oc.sh  -
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 7
+/opt/rocm/bin/rocm-smi -s
+nano start-oc.sh
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 7
+/opt/rocm/bin/rocm-smi -d 1 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 1 --setsclk 4
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi -d 1 --setsclk 3
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 9 --setsclk 3
+/opt/rocm/bin/rocm-smi
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 12 --setsclk 4
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi -d 12 --setsclk 3
+/opt/rocm/bin/rocm-smi 
+sudo cat /nohup.out 
+sudo cat /nohup.out 
+cat /nohup.out 
+cat /proc/interrupts
+/root/mine.sh&
+cat /proc/interrupts
+sudo /root/nohup.out 99
+sudo /root/nohup.out 
+sudo cat /root/nohup.out 
+sudo cat /root/nohup.out 
+sudo cat /root/nohup.out 
+sudo cat /root/nohup.out
+sudo cat /root/nohup.out 
+cat /proc/interrupts7
+sudo cat /nohup.out 
+reboot
+sudo cat /nohup.out 
+sudo cat /nohup.out 
+sudo cat /nohup.out 
+dmesg
+lspci
+dmesg
+rocm-smi
+nano .bashrc
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+sudo nano /ropt/start-rtl
+sudo nano /root/start-rtlinux.sh 
+sudo nano /etc/rc.local
+sudo nano /root/start.sh
+sudo nano /root/start-rtminer.sh 
+sudo nano /root/start-rtminer.sh 
+sudo reboot
+cat /nohup.out 
+sudo reboot
+dmesg | init
+dmesg
+fsck
+sudo umount /dev/sda3
+sudo reboot
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 3
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+dmesg
+dmesg | grep sysvinit
+dmesg | grep /lib/sysvinit
+sudo shutdown -h now
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 0 --setsclk 3
+nano /root/start-oc.sh 
+/opt/rocm/bin/rocm-smi
+update-initramfs
+update-initramfs -uv
+update-grub
+sudo reboot
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+dmesg
+sudo reboot
+dmesg
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+dmesg
+dmesg
+lspci
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+reboot
+cat /nohup.out 
+nano /root/start-rtminer.sh 
+sudo reboot
+cat /nohup.out 
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+ls
+cat /root/mine.sh 
+/opt/rocm/bin/rocm-smi
+nano /etc/ssh/sshd_config 
+/opt/rocm/bin/rocm-smi
+exit
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -s
+sudo nano /root/start-oc
+sudo nano /root/start-oc.sh 
+#find /sys | grep power_dpm_state
+#find /sys | grep power_dpm_force_performance_level
+find /sys | grep power_dpm_state
+find /sys | grep power_dpm_force_performance_level
+sudo nano /root/start-oc.sh 
+sudo nano /root/start-oc.sh 
+sudo nano /root/start-oc.sh 
+sudo cat /nohup.out 
+sudo reboot
+sudo cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setfan 0
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setfan 260
+/opt/rocm/bin/rocm-smi -d 3 --setfan 255
+/opt/rocm/bin/rocm-smi
+killall ethdcrminer64
+/opt/rocm/bin/rocm-smi --setfan 0
+/opt/rocm/bin/rocm-smi --setfan 0 -d 3
+/opt/rocm/bin/rocm-smi --setfan 255 -d 3
+/opt/rocm/bin/rocm-smi
+reboot
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+sudo reboot
+/opt/rocm/bin/rocm-smi
+exit
+cat /nohup.out 
+sudo reboot
+cat /nohup.out 
+sudo rm /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setmclk 1
+/opt/rocm/bin/rocm-smi -s
+cd /rootr/Claymore/
+/root/mine.sh 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+cat /root/nohup.out 
+sudo reboot
+/opt/rocm/bin/rocm-smi -d 3 --setmclk 1
+/opt/rocm/bin/rocm-smi -g
+/opt/rocm/bin/rocm-smi -p
+/opt/rocm/bin/rocm-smi -0
+/opt/rocm/bin/rocm-smi -a
+cat /nohup.out 
+cat /nohup.out 
+exit
+nano gpureset.sh
+ls
+/root/gpureset.sh &
+mv gpureset.sh resetgpu.sh
+chmod +x resetgpu.sh 
+/root/resetgpu.sh &
+nano gpureset.sh
+nano gpureset.sh
+nano resetgpu.sh 
+kill 4822
+nano resetgpu.sh 
+nano resetgpu.sh 
+lspci -n | grep 1002\: | egrep -v "\.1"| awk '{print "find /sys | grep \""$1"/rescan\"  -| tac -;"}' | sh - | sed s/^/echo\ 1\ \>\ \"\&/g | sed s/$/\"/g
+nano resetgpu.sh 
+nano resetgpu.sh 
+nohup /root/resetgpu.sh &
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+/root/resetgpu.sh 
+nano resetgpu.sh 
+amdcovc fanspeed:0-11=88.3159
+nano resetgpu.sh 
+/root/resetgpu.sh 
+nano resetgpu.sh 
+nano resetgpu.sh 
+/root/resetgpu.sh 
+nano resetgpu.sh 
+nano resetgpu.sh 
+nano resetgpu.sh 
+nano gpureset.sh
+chmod +x gpureset.sh 
+/root/gpureset.sh 
+rm resetgpu.sh 
+top
+nohup /root/gpureset.sh &
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi -d 3 --setmclk 2
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi --setfan 204
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+cat gpureset.sh 
+cat /nohup.out 
+cat /nohup.out 
+rm /nohup.out 
+nano start-rtminer.sh 
+sudo reboot
+cat /nohup.out 
+nano start-oc.sh
+sudo reboot
+cat /nohup.out 
+reboot
+cat /nohup.out 
+cat /nohup.out
+lspci
+dmeag
+dmesg
+nano /root/mine.sh 
+nano /root/mine.sh 
+lspci
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 2 --setsclk 3
+reboot
+nano /root/mine.sh 
+nano /root/start-oc.sh
+nano /root/start-rtminer.sh 
+/opt/rocm/bin/rocm-smi
+reboot
