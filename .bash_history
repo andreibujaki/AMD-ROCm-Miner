@@ -1,117 +1,3 @@
-git add -A
-git status
-git commit -m "added useful commands"
-git push
-nano /etc/rc.local 
-ls ethminer/
-nano ethminer/.gitignore 
-ls radeon-profile/
-git add . --force
-git status
-git add PolarisBiosEditor/
-git add PolarisBiosEditor/\\*
-git add PolarisBiosEditor/\*
-git add PolarisBiosEditor/
-git add ethminer/*
-git add ethminer/\*
-git status
-git add r8168
-git status
-git add r8168\*
-git add r8168/\*
-git status
-git stash
-ls
-cat /nohup.out 
-/opt/rocm/bin/rocm-smi 
-nano /etc/rc.local 
-nano /etc/network/if-up.d/
-nano /etc/network/if-up.d/sshtunnel 
-netstat -ntl
-/opt/rocm/bin/rocm-smi 
-cat /nohup.out 
-cat /nohup.out 
-/opt/rocm/bin/rocm-smi 
-rm /nohup.out 
-cat /home/guru/nohup.out 
-rm /home/guru/nohup.out 
-cat /root/nohup.out 
-rm /root/nohup.out 
-/opt/rocm/bin/rocm-smi 
-/opt/rocm/bin/rocm-smi 
-reboot
-/opt/rocm/bin/rocm-smi 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-cat /nohup.out 
-rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-nano mine.sh 
-/opt/rocm/bin/rocm-smi
-killall ethdcrminer64
-taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x -asm 1 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -cvddc 900 -mclock 2200 -mvddc 900 -mport -3003
-taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig2 -epsw x -asm 1 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -cvddc 900 -mclock 2200 -mvddc 900 -mport -3003taskset -c 1 /rootr/Claymore/ethdcrminer64 -epool local.ethermine.org:8008 -ewal 0x9eaba219ac4ac28c2c008b3d9968cdbb7c5250f0.rig3 -epsw x -asm 1 -ethi 16 -wd 0 -erate 0 -logsmaxsize 0 -ftime 10 -tstop 85 -tt 55 -fanmin 50 -fanmax 80 -cclock 1100 -cvddc 900 -mclock 2200 -mvddc 900 -mport -3003
-nano mine.sh 
-cd /rootr/Claymore/
-/root/mine.sh 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-nano mine.sh 
-nano ../mine.sh 
-cat /proc/interrupts 
-rm /nohup.out 
-rm /root/nohup.out 
-rm /home/guru/nohup.out 
-reboot
-cat /proc/interrupts 
-/opt/rocm/bin/rocm-smi
-cat /nohup.out 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat /nohup.out 
-cat /etc/rc.local 
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-cat /nohup.out 
-rocm-smi
-/opt/rocm/bin/rocm-smi
-sudo nano /sys/class/drm/card2/device/
-sudo nano /sys/class/drm/card2/device/power_dpm_force_performance_level 
-sudo nano /sys/class/drm/card0/device/power_dpm_force_performance_level 
-sudo nano /sys/class/drm/card1/device/power_dpm_force_performance_level 
-sudo nano /sys/class/drm/card3/device/power_dpm_force_performance_level 
-sudo nano /sys/class/drm/card4/device/power_dpm_force_performance_level 
-sudo reboot
-/opt/rocm/bin/rocm-smi -s
-nano /etc/rc.local
-ls /root
-cp /etc/rc.local /root
-ls /root
-cd root
-cd /root
-git add -A
-git status
-git commit -m "optimized temps and power via rc.local and rocm-smi"
-git push
-exit
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi -d 3 --setsclk 4
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi -d 4 --setsclk 4
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
-/opt/rocm/bin/rocm-smi
 nano /etc/rc.local
 nano /start-oc.sh
 nano /root/start-oc.sh
@@ -498,3 +384,117 @@ nano /root/start-oc.sh
 nano /root/start-rtminer.sh 
 /opt/rocm/bin/rocm-smi
 reboot
+cd /root
+nano start-rtminer.sh 
+nano start-oc.sh
+git add -A
+git status
+git commit -m "added gpureset but doesnt work"
+nano mine.sh
+git push
+exit
+nano start-oc.sh
+cd /root
+nano start-oc.sh
+reboot
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+rm /nohup.out 
+reboot
+rm /nohup.out 
+/opt/rocm/bin/rocm-smi
+cat /root/no
+cat /root/nohup.out 
+rm /root/nohup.out 
+exit
+/opt/rocm/bin/rocm-smi
+killall ethdcrminer64
+/opt/rocm/bin/rocm-smi --setfan 0
+/opt/rocm/bin/rocm-smi --setfan 130 -d 3
+/opt/rocm/bin/rocm-smi --setfan 130 -d 2
+/opt/rocm/bin/rocm-smi --setfan 0
+/opt/rocm/bin/rocm-smi --setfan 130 -d 2AA
+/opt/rocm/bin/rocm-smi --setfan 0
+shutdown -h now
+/opt/rocm/bin/rocm-smi
+ls
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi -s
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 4 --setsclk 6
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 4 --setsclk 5
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 4 --setfan 0
+/opt/rocm/bin/rocm-smi -d 4 --setfan 200
+/opt/rocm/bin/rocm-smi
+killall ethdcrminer64
+/opt/rocm/bin/rocm-smi --setfan 0
+/opt/rocm/bin/rocm-smi --setfan 130 -d 4
+reboot
+/opt/rocm/bin/rocm-smi
+exit
+cat /nohup.out 
+killall ethdcrminer64
+cd /rootr/Claymore/
+/root/mine.sh
+cat /nohup.out 
+rm /nohup.out 
+reboot
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+killall ethdcrminer64
+/opt/rocm/bin/rocm-smi --setfan 0
+/opt/rocm/bin/rocm-smi --setfan 130 -d 3
+shutdown -h now
+/opt/rocm/bin/rocm-smi
+cat /nohup.out 
+rm /nohup.out 
+cat /root/no
+cat /root/nohup.out 
+rm /root/nohup.out 
+reboot
+cat /nohup.out 
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 3 --setmclk 1
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi
+/opt/rocm/bin/rocm-smi -d 6 --setmclk 2
+cd /rootr/Claymore/
+/root/mine.sh 
+cat /etc/default/grub
+cat /etc/rc.local
+nano start-oc.sh
+cat start-oc.sh
+cat /etc/rc.local
+cat /nohup.out 
+exit
+apt install libjansson-dev
+exit
+ls
+git fetch
+git checkout master -- tdxminer
+git checkout master -- tdxminer
+git checkout master -- xmr-stak
+git status
+nano start-oc.sh
+/opt/rocm/bin/rocm-smi
+exit
+git status
+git show-ref
+git checkout master -- ethminer/
+git status
+git checkout master -- tdxminer
+df -h
+git fetch
+git checkout rig2 -- tdxminer
+ls
+git status
+git checkout master -- tdxminer
+exit

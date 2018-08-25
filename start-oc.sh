@@ -3,8 +3,6 @@
 #set fan to 50%
 /opt/rocm/bin/rocm-smi --setfan 130 
 
-/opt/rocm/bin/rocm-smi -d 3 --setmclk 1
-
 #set GPU core clock frequencies and power profiles
 /opt/rocm/bin/rocm-smi -d 0 --setsclk 5
 /opt/rocm/bin/rocm-smi -d 1 --setsclk 7
