@@ -2,6 +2,7 @@
 #Here is the example for the dreaded pirate roberts 570 samsung nitro's
 #set fan to 50%
 /opt/rocm/bin/rocm-smi --setfan 130 
+/opt/rocm/bin/rocm-smi --setmclk 0
 
 #set GPU core clock frequencies and power profiles
 /opt/rocm/bin/rocm-smi -d 0 --setsclk 5
